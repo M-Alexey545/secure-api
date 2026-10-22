@@ -10,7 +10,7 @@ on:
 jobs:
   sast-bandit:
     name: SAST - Bandit
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
@@ -42,7 +42,7 @@ jobs:
 
   sca-pip-audit:
     name: SCA - pip-audit
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
