@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.db
+*.sqlite
+bandit-report.json
+bandit-report.txt
+pip-audit-report.json
+pip-audit-report.txt
+reports/
+.env
